@@ -1,88 +1,280 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PurpleEmo サポート</title>
-    <style>
-      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.75; margin: 24px; max-width: 860px; }
-      h1,h2 { line-height: 1.3; }
-      .meta { color: #555; font-size: 0.95rem; }
-      .box { background: #fafafa; border: 1px solid #eee; border-radius: 10px; padding: 14px 16px; }
-      code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
-      hr { border: none; border-top: 1px solid #eee; margin: 28px 0; }
-      ul { padding-left: 1.25rem; }
-      .lang { margin-top: 18px; }
-    </style>
-  </head>
-  <body>
-    <h1>PurpleEmo サポート</h1>
-    <p class="meta">
-      連絡先：<a href="mailto:support@purpleemo.com">support@purpleemo.com</a><br />
-      返信目安：<strong>2営業日以内</strong>（日本時間）
-    </p>
+<head>
+  <meta charset="UTF-8" />
+  <title>PurpleEmo サポート / Support</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background: #f6f7fb;
+      color: #1f2933;
+    }
+    header {
+      background: #6d5df6;
+      color: #ffffff;
+      padding: 24px 16px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+    header p {
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+    section {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 20px 18px;
+      margin-bottom: 18px;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: #303f9f;
+    }
+    h3 {
+      font-size: 1rem;
+      margin-top: 0;
+      margin-bottom: 6px;
+      color: #374151;
+    }
+    ul {
+      margin: 0 0 0 1.2em;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .lang-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #6b7280;
+      margin-bottom: 4px;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+    @media (min-width: 720px) {
+      .two-column {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .small {
+      font-size: 0.85rem;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PurpleEmo サポート / Support</h1>
+    <p>このページは PurpleEmo アプリのサポート窓口および運営者情報を案内するためのページです。</p>
+  </header>
 
-    <div class="box">
+  <main>
+    <!-- =========================
+         日本語セクション / Japanese
+         ========================= -->
+    <section id="ja-app">
+      <div class="lang-label">Japanese</div>
+      <h2>アプリ情報</h2>
       <p>
-        お問い合わせはメールで承ります。内容に応じて確認にお時間をいただく場合があります。
+        <strong>アプリ名：</strong> PurpleEmo<br />
+        <strong>カテゴリ：</strong> メンタルヘルス / ライフスタイル<br />
+        <strong>概要：</strong><br />
+        PurpleEmo は、日々の「Good / Bad」の気分と出来事を色（パープル）として残すことで、
+        自分のメンタルの傾向をやさしく可視化するアプリです。
       </p>
+    </section>
+
+    <section id="ja-contact">
+      <div class="lang-label">Japanese</div>
+      <h2>サポート窓口（お問い合わせ先）</h2>
+      <p>アプリに関するご質問・不具合のご報告・改善要望などは、下記の連絡先までご連絡ください。</p>
+
+      <h3>連絡先情報</h3>
       <p>
-        プライバシーポリシー：<a href="/privacy/">/privacy/</a>
-      </p>
-    </div>
-
-    <h2>よくある質問</h2>
-    <ul>
-      <li><strong>アプリが起動しない／落ちる</strong>：端末の再起動、アプリのアップデートをお試しください。</li>
-      <li><strong>動作が重い</strong>：他アプリを終了し、端末の空き容量をご確認ください。</li>
-      <li><strong>不具合報告</strong>：下記「送っていただきたい情報」を可能な範囲でお知らせください。</li>
-    </ul>
-
-    <h2>送っていただきたい情報</h2>
-    <ul>
-      <li>OS：iOS / Android、OSバージョン（例：iOS 17.x / Android 14）</li>
-      <li>端末名（例：iPhone 14 / Pixel 7）</li>
-      <li>アプリのバージョン（例：1.0.0）</li>
-      <li>発生日時（例：2026-01-17 20:15）</li>
-      <li>再現手順（何をすると起きるか）</li>
-      <li>可能ならスクリーンショット／画面録画</li>
-    </ul>
-
-    <hr />
-
-    <!-- English section -->
-    <div class="lang" lang="en">
-      <h1>PurpleEmo Support</h1>
-      <p class="meta">
-        Contact: <a href="mailto:support@purpleemo.com">support@purpleemo.com</a><br />
-        Response time: <strong>within 2 business days</strong> (JST)
+        <!-- ★ここを書き換えてください -->
+        <strong>運営者名：</strong> 中間 大聡<br />
+        <strong>住所：</strong> 〒890-0034 鹿児島県鹿児島市田上7-4-18-202<br />
+        <strong>電話番号：</strong> 090-7151-4800<br />
+        <!-- ★メールアドレスはあなたの実アドレスに差し替え済みであればそのままでOK -->
+        <strong>メールアドレス：</strong>
+        <a href="mailto:support@purpleemo.com">support@purpleemo.com</a><br />
+        <strong>対応言語：</strong> 日本語 / 英語
       </p>
 
-      <div class="box">
-        <p>
-          Support is provided via email. Depending on the issue, investigation may take some time.
-        </p>
-        <p>
-          Privacy Policy: <a href="/privacy/">/privacy/</a>
-        </p>
-      </div>
+      <h3>サポート受付時間</h3>
+      <p>
+        <strong>受付時間：</strong> 平日 10:00〜18:00（日本時間・土日祝日および年末年始を除く）<br />
+        <strong>返信目安：</strong> 通常 3 営業日以内の返信を目安としておりますが、
+        お問い合わせ内容や混雑状況により前後する場合があります。
+      </p>
 
-      <h2>FAQ</h2>
+      <h3>サポート対象内容</h3>
       <ul>
-        <li><strong>The app won’t launch / crashes</strong>: Please restart your device and update the app to the latest version.</li>
-        <li><strong>Performance is slow</strong>: Close other apps and check available storage on your device.</li>
-        <li><strong>Bug report</strong>: Please include the information listed below if possible.</li>
+        <li>アプリの基本的な使い方に関するご質問</li>
+        <li>不具合・障害のご報告</li>
+        <li>表示内容や動作に関するお問い合わせ</li>
+        <li>機能追加・改善のご要望</li>
       </ul>
 
-      <h2>Information to Include</h2>
+      <p class="note">
+        個別の医療行為や診断に関するご相談にはお答えできません。
+        メンタルヘルスに関する緊急のサポートが必要な場合は、
+        医療機関や公的な相談窓口などの専門機関にご相談ください。
+      </p>
+    </section>
+
+    <section id="ja-terms">
+      <div class="lang-label">Japanese</div>
+      <h2>免責事項</h2>
       <ul>
-        <li>OS: iOS / Android and OS version (e.g., iOS 17.x / Android 14)</li>
-        <li>Device model (e.g., iPhone 14 / Pixel 7)</li>
-        <li>App version (e.g., 1.0.0)</li>
-        <li>Date/time of the issue (e.g., 2026-01-17 20:15 JST)</li>
-        <li>Steps to reproduce (what you did before it happened)</li>
-        <li>Screenshots / screen recording if available</li>
+        <li>本アプリは、ユーザーの心身の状態を診断・治療することを目的とした医療機器ではありません。</li>
+        <li>本アプリの利用により生じたいかなる損害・トラブルについても、運営者は一切の責任を負わないものとします。</li>
+        <li>アプリの内容や仕様、サポート体制は予告なく変更・終了する場合があります。</li>
       </ul>
-    </div>
-  </body>
+    </section>
+
+    <section id="ja-privacy">
+      <div class="lang-label">Japanese</div>
+      <h2>個人情報の取り扱いについて</h2>
+      <p>
+        PurpleEmo における個人情報・データの取り扱いについては、以下のプライバシーポリシーをご参照ください。
+      </p>
+      <p>
+        <a href="https://purpleemo.com/privacy/" target="_blank" rel="noopener">
+          PurpleEmo プライバシーポリシー
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <p class="small note">
+        ※本ページの内容は、法令やストアポリシーの変更に伴い、予告なく更新される場合があります。
+      </p>
+    </section>
+
+    <!-- =========================
+         English section
+         ========================= -->
+    <section id="en-app">
+      <div class="lang-label">English</div>
+      <h2>About This App</h2>
+      <p>
+        <strong>App name:</strong> PurpleEmo<br />
+        <strong>Category:</strong> Mental Health / Lifestyle<br />
+        <strong>Overview:</strong><br />
+        PurpleEmo is an app that lets you record your daily “Good / Bad” moods and events
+        as a shade of purple, helping you gently visualize your mental trends over time.
+      </p>
+    </section>
+
+    <section id="en-contact">
+      <div class="lang-label">English</div>
+      <h2>Support Contact</h2>
+      <p>
+        If you have any questions, bug reports, or feature requests related to PurpleEmo,
+        please contact us using the information below.
+      </p>
+
+      <h3>Contact Information</h3>
+      <p>
+        <!-- ★ここもあなたの実情報に合わせてください -->
+        <strong>Operator name:</strong> Haruto Nakama<br />
+        <strong>Address:</strong> 7-4-18-202, Tagami, Kagoshima, Kagoshima, 890-0034, Japan<br />
+        <strong>Phone:</strong> +81-90-7151-4800<br />
+        <strong>Email:</strong>
+        <a href="mailto:support@purpleemo.com">support@purpleemo.com</a><br />
+        <strong>Supported languages:</strong> Japanese / English
+      </p>
+
+      <h3>Support Hours</h3>
+      <p>
+        <strong>Business hours:</strong> Weekdays 10:00–18:00 (JST), excluding weekends,
+        national holidays, and year-end/new-year holidays.<br />
+        <strong>Expected response time:</strong> We generally aim to respond within 3 business days,
+        though it may take longer depending on the nature of your inquiry and our workload.
+      </p>
+
+      <h3>Support Scope</h3>
+      <ul>
+        <li>Questions about how to use the app</li>
+        <li>Bug and issue reports</li>
+        <li>Inquiries about the behavior or display of the app</li>
+        <li>Requests for new features or improvements</li>
+      </ul>
+
+      <p class="note">
+        We are unable to provide individual medical advice, diagnosis, or treatment.
+        If you need urgent support regarding your mental health, please contact a medical
+        professional or an appropriate public support organization in your region.
+      </p>
+    </section>
+
+    <section id="en-terms">
+      <div class="lang-label">English</div>
+      <h2>Disclaimer</h2>
+      <ul>
+        <li>This app is not a medical device and is not intended to diagnose or treat any medical condition.</li>
+        <li>
+          The operator shall not be liable for any damages or disputes arising from the use of this app,
+          to the maximum extent permitted by applicable law.
+        </li>
+        <li>The contents, features, and support of this app may be changed or discontinued without prior notice.</li>
+      </ul>
+    </section>
+
+    <section id="en-privacy">
+      <div class="lang-label">English</div>
+      <h2>Privacy</h2>
+      <p>
+        For details on how PurpleEmo handles personal data and user information,
+        please refer to our Privacy Policy below.
+      </p>
+      <p>
+        <a href="https://purpleemo.com/privacy/" target="_blank" rel="noopener">
+          PurpleEmo Privacy Policy
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <p class="small note">
+        This support page may be updated without prior notice in accordance with changes in laws,
+        regulations, or store policies.
+      </p>
+    </section>
+  </main>
+</body>
 </html>
